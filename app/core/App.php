@@ -64,8 +64,6 @@ class App{
         if(method_exists($this->__controller, $this->__action)){
             call_user_func_array([$this->__controller, $this->__action], $this->__params);
         }
-
-        //var_dump($this->__params);
     }
 }
 ?>
