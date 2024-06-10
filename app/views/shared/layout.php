@@ -6,10 +6,9 @@
     <title>Master test Layout !</title>
 </head>
 <body>
-    <?php
-    foreach($data as $value){
-        echo $value;
-    }
-    ?>
+    <hr>
+    <?php foreach ($arr as $value): ?>
+        <?=$value?> 
+    <?php endforeach ?>
 </body>
 </html>

@@ -6,6 +6,7 @@ class CategoryModel{
     }
 
     public function showtext(){
-        return "Show text of Category Model";
+        $data = ['Show text of Category Model'];
+        return $data;
     }
 }
