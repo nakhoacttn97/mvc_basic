@@ -5,8 +5,8 @@ class CategoryModel extends DModel{
         parent::__construct();
     }
 
-    public function showtext(){
-        $data = ['Show text of Category Model'];
-        return $data;
+    public function getCategories(){
+        $sql = "SELECT * FROM categories";
+        return $this->_db->getAll($sql);
     }
 }

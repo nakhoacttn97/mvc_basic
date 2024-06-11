@@ -1,7 +1,7 @@
 <?php
 class DModel{
     protected $_db = [];
-    private $_connDb = "mysql:dbname=pdo_blogs_ecommerce;host=localhost;charset=utf8";
+    private $_connDb = "mysql:dbname=demo_mvc;host=localhost;charset=utf8";
     private $_user = 'root';
     private $_pass = 'Destructor97@';
 

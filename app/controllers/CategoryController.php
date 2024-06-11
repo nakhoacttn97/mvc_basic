@@ -6,8 +6,8 @@ class CategoryController extends BaseController{
         $this->_cat = $this->model("CategoryModel");
     }
 
-    public function show(){
-        $data = $this->_cat->showtext();
+    public function index(){
+        $data = $this->_cat->getCategories();
 
         return $this->view(['arr' => $data], 'shared/layout');
     }
