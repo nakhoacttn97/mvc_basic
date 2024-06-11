@@ -18,7 +18,7 @@ abstract class BaseController{
     }
 
     protected function view(array $data, string $_name=NULL){
-
+        
         extract($data);
 
         if($_name != NULL){

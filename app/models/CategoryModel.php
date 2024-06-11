@@ -1,8 +1,8 @@
 <?php
-class CategoryModel{
+class CategoryModel extends DModel{
 
     public function __construct(){
-        echo "Require Category model Success !";
+        parent::__construct();
     }
 
     public function showtext(){
